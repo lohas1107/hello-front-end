@@ -1,0 +1,38 @@
+img {
+    display: block;
+}
+
+.container {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+}
+
+.news li {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.news h2 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.news p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.article {
+    padding: 0 20px;
+}
+
+.footer {
+    font-size: 16px;
+    line-height: 1.5;
+    height: 120px;
+    background: #eae0d0;
+}

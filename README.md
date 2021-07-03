@@ -7,6 +7,11 @@
 📍 版面解析：[Layout Analysis](https://github.com/lohas1107/hello-front-end/blob/gh-pages/resume/img/layout.png?raw=true)  
 📍 成果：[https://2ndbrain.cc/hello-front-end/resume/](https://2ndbrain.cc/hello-front-end/resume/)  
 
+### Pixel Perfect Kata
+📍 設計稿：[Layout Demo](https://github.com/lohas1107/hello-front-end/blob/gh-pages/pixel-perfect-kata/img/design.png?raw=true)  
+📍 版面解析：[Layout Analysis](https://github.com/lohas1107/hello-front-end/blob/gh-pages/pixel-perfect-kata/img/layout.png?raw=true)  
+📍 成果：[https://2ndbrain.cc/hello-front-end/pixel-perfect-kata/](https://2ndbrain.cc/hello-front-end/pixel-perfect-kata/)
+
 ### 甜點電商 Flex Box 練習
 `HTML` `CSS`
 
