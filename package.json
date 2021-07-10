@@ -1,0 +1,10 @@
+{
+  "name": "hello-web-layout",
+  "version": "1.0.0",
+  "description": "Web layout practices",
+  "main": "index.js",
+  "repository": "https://github.com/lohas1107/hello-web-layout.git",
+  "author": "Irene Wang <lohas1107@gmail.com>",
+  "license": "None",
+  "private": true
+}
