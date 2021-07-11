@@ -7,7 +7,12 @@
   "author": "Irene Wang <lohas1107@gmail.com>",
   "license": "None",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp",
+    "deploy": "gulp deploy"
+  },
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.27.4",
