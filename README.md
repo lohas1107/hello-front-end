@@ -7,9 +7,17 @@
 📍 成果：[https://2ndbrain.cc/hello-web-layout/resume/](https://2ndbrain.cc/hello-web-layout/resume/)  
 
 ### Pixel Perfect Kata
+`HTML` `CSS`
+
 📍 設計稿：[Layout Demo](https://2ndbrain.cc/hello-web-layout/pixel-perfect-kata/img/design.png)  
 📍 版面解析：[Layout Analysis](https://2ndbrain.cc/hello-web-layout/pixel-perfect-kata/img/layout.png)  
 📍 成果：[https://2ndbrain.cc/hello-web-layout/pixel-perfect-kata/](https://2ndbrain.cc/hello-web-layout/pixel-perfect-kata/)
+
+### 個人網站
+`HTML` `CSS`
+
+📍 設計稿：[Layout Demo](https://2ndbrain.cc/hello-web-layout/about/img/design.png)  
+📍 成果：[https://2ndbrain.cc/hello-web-layout/about/](https://2ndbrain.cc/hello-web-layout/about/)
 
 ### 甜點電商 Flex Box 練習
 `HTML` `CSS`

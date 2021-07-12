@@ -6,7 +6,8 @@ const staticFiles = [
     "tools/**/*",
     "resume/**/*",
     "pixel-perfect-kata/**/*",
-    "dessert/**/*"
+    "about/**/*",
+    "dessert/**/*",
 ];
 const distPath = './dist';
 
