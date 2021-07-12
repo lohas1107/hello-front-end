@@ -28,5 +28,13 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          yarn deploy
+          cd ./dist
+          git init
+          git config --local user.name "Irene Wang"
+          git config --local user.email "lohas1107@gmail.com"
+          git remote add origin https://${{secrets.DEPLOY_GITHUB_PAGE_SECRET}}@github.com/lohas1107/hello-web-layout.git
+          git checkout -b gh-pages
+          git add --all
+          git commit -m "Deploy to GitHub Pages by GitHub Actions"
+          git push origin gh-pages -f
           echo 🤘 Deploy to GitHub Pages completed.
