@@ -3,6 +3,7 @@ const $ = require('gulp-load-plugins')({lazy: false});
 const browserSync = require('browser-sync').create();
 
 const staticFiles = [
+    "README.md",
     "tools/**/*",
     "resume/**/*",
     "pixel-perfect-kata/**/*",
