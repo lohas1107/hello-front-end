@@ -1,0 +1,154 @@
+body {
+    font-family: PingFang TC sans-serif;
+    font-weight: bold;
+    color: #3f5d45;
+}
+
+a {
+    display: block;
+    color: #3f5d45;
+}
+
+a:hover {
+    background: #eaf0ed;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.mb-6 {
+    margin-bottom: 60px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    padding: 0px 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-menu {
+    width: 300px;
+    font-size: 24px;
+    line-height: 65px;
+}
+
+.side-menu h2 {
+    background: #3f5d45;
+    color: #eaf0ed;
+}
+
+.side-menu li {
+    border: 1px solid #eaf0ed;
+    margin-bottom: -1px;
+}
+
+.product-list {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 300px;
+    position: relative;
+}
+
+.product-card .tag {
+    position: absolute;
+    background: #3f5d45;
+    color: #eaf0ed;
+    padding: 10px;
+    margin-left: 20px;
+    writing-mode: vertical-rl;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.product-card .heart {
+    position: absolute;
+    top: 19px;
+    right: 22px;
+    font-size: 20px;
+}
+
+.product-card-body {
+    display: flex;
+    font-size: 20px;
+    line-height: 56px;
+    margin-top: -2px;
+}
+
+.product-card-body h2 {
+    font-weight: lighter;
+    width: 170px;
+    border-left: 1px solid #eaf0ed;
+    border-right: 1px solid #eaf0ed;
+}
+
+.product-card-body span {
+    width: 127px;
+    border-right: 1px solid #eaf0ed;
+}
+
+.product-card a {
+    background: #eaf0ed;
+    font-size: 24px;
+    line-height: 65px;
+}
+
+.product-card a:hover {
+    color: #eaf0ed;
+    background: #3f5d45;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination ul {
+    display: flex;
+}
+
+.pagination a {
+    font-size: 20px;
+    padding: 16px 24px;
+    border: 1px solid #eaf0ed;
+    margin-left: -1px;
+}
+
+.pagination a:hover {
+    color: #eaf0ed;
+    background: #3f5d45;
+}
