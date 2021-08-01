@@ -1,0 +1,163 @@
+.footer {
+  background: $color-primary;
+  color: $color-on-primary;
+  padding: 32px 0 40px 0;
+
+  a {
+    color: $color-on-primary;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $color-on-primary;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+
+    &-pages {
+      display: flex;
+
+      li {
+        line-height: 48px;
+        margin-right: 48px;
+      }
+
+      a:hover {
+        opacity: .8;
+      }
+    }
+
+    &-contact {
+      li {
+        display: flex;
+        margin-bottom: 16px;
+
+        img {
+          width: 36px;
+          margin-right: 22px;
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .social-icon {
+      display: flex;
+
+      li {
+        margin-left: 32px;
+      }
+
+      img {
+        vertical-align: middle;
+
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
+  }
+
+  .statement {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+
+      li {
+        margin-left: 48px;
+
+      }
+    }
+  }
+}
+
+@include pad {
+  .container {
+    max-width: 690px+80px;
+  }
+  .footer {
+    padding: 32px 0;
+
+    .info {
+      margin-bottom: 24px;
+
+      &-pages {
+        li {
+          line-height: 24px;
+          margin-right: 40px;
+        }
+      }
+
+      &-contact {
+        font-size: 20px;
+
+        li {
+          margin-bottom: 12px;
+
+          img {
+            width: 18px;
+            margin-right: 12px;
+          }
+        }
+      }
+
+      .social-icon {
+        li {
+          margin-left: 24px;
+        }
+
+        img {
+          width: 24px;
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .container {
+    max-width: 344px+32px;
+    padding: 0 16px;
+  }
+  .footer {
+    padding: 24px 0 16px 0;
+
+    .info {
+      margin-bottom: 16px;
+
+      &-pages {
+        display: none;
+      }
+
+      &-contact {
+        font-size: 16px;
+
+        li {
+          margin-bottom: 8px;
+
+          img {
+            width: 16px;
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+
+    .statement {
+      flex-direction: column;
+
+      p {
+        margin-bottom: 8px;
+      }
+
+      ul {
+        flex-direction: column;
+
+        li {
+          margin: 0 0 8px 0;
+        }
+      }
+    }
+  }
+}

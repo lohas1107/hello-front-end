@@ -1,0 +1,19 @@
+body {
+  font-family: "Noto Sans", "Roboto", sans-serif;
+}
+
+/* rwd img css */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 全域 border box */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 隱藏超連結底線 */
+a {
+  text-decoration: none;
+}

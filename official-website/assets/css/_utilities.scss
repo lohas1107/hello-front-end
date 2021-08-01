@@ -1,0 +1,42 @@
+.container{
+  max-width: 1100px+80px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.font-16 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.font-20 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.font-36 {
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+// margin-right
+@for $i from 1 through 12 {
+  .mr-#{$i} {
+    margin-right: $i * $space-unit;
+  }
+}
+
+// margin-bottom
+@for $i from 1 through 12 {
+  .mb-#{$i} {
+    margin-bottom: $i * $space-unit;
+  }
+}
+
+// padding-x
+@for $i from 1 through 12 {
+  .px-#{$i} {
+    padding-left: $i * $space-unit;
+    padding-right: $i * $space-unit;
+  }
+}
