@@ -24,3 +24,11 @@
 
 📍 設計稿：[Layout Demo](https://2ndbrain.cc/hello-web-layout/dessert/img/design.png)   
 📍 成果：[https://2ndbrain.cc/hello-web-layout/dessert/](https://2ndbrain.cc/hello-web-layout/dessert/) 
+
+### 形象網站 RWD 練習
+`HTML` `EJS` `SCSS` `RWD`
+
+📍 設計稿：[PC](https://2ndbrain.cc/hello-web-layout/official-website/assets/img/layout-index-pc.png) | 
+[Tablet](https://2ndbrain.cc/hello-web-layout/official-website/assets/img/layout-index-tablet.png) | 
+[Phone](https://2ndbrain.cc/hello-web-layout/official-website/assets/img/layout-index-phone.png)  
+📍 成果：[https://2ndbrain.cc/hello-web-layout/official-website/](https://2ndbrain.cc/hello-web-layout/official-website/) 
